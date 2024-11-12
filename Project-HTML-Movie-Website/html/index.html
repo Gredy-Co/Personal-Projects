@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMax</title>
+
+    <!-- Enlace a la hoja de estilo local -->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <script src="https://kit.fontawesome.com/12d578a4cd.js" crossorigin="anonymous"></script>    
+
+
+    <!-- Enlace a la hoja de estilo de reximicon para los íconos -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+</head>
+
+<body>
+    <!-- Encabezado con la barra de navegación -->
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <div class="nav__logo">
+                    <img src="https://t3.ftcdn.net/jpg/05/45/24/86/240_F_545248609_qbkuQGuDkHqgDCunGvNBlR2phjS2uv9T.jpg"
+                        alt="Brand Logo" class="nav__logo-img">
+                    <span class="nav__logo-text" data-key="brand-logo">CinemaX</span>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+            <div class="navigation__user">
+                <button id="userButton" class="user-button">
+                    <img src="../images/user.png" alt="User Avatar" class="user-button__avatar">
+                    <span id="userName" class="user-button__name">User</span>
+                </button>
+            </div>
+            <button class="switch navigation__switch" id="switch">
+                <span><i class="fa-solid fa-sun"></i></span>
+                <span><i class="fa-solid fa-moon"></i></span>
+            </button>
+            <script src="../javascript/loginout.js"></script>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+
+                
+
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link" data-key="home">Home</a></li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            <span data-key="movies-categories">Movies Categories</span> <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-movie-2-line"></i> <span data-key="action">Action</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-emotion-laugh-line"></i> <span data-key="comedy">Comedy</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-ghost-line"></i> <span data-key="horror">Horror</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-emotion-sad-line"></i> <span data-key="drama">Drama</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li><a href="aboutus.html" class="nav__link" data-key="about-us">About us</a></li>
+
+                        <!-- Botones de traducción -->
+                        <button class="translate-btn" data-lang="en">EN</button>
+                        <button class="translate-btn" data-lang="ar">AR</button>
+                        
+                       
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección principal -->
+    <main>
+        <!-- Sección de héroe con imagen de fondo -->
+        <div class="hero" style="background-image: url('../images/cine-ha-muerto.jpg');">
+            <h1 class="hero__title" data-key="hero-title">Live the experience</h1>
+            <p class="hero__descrip" data-key="hero-description">
+                Explore the endless universe of cinema, <br> where every movie is a new adventure.
+            </p>
+        </div>
+
+        <input type="text" id="search-input" placeholder="Search for movies...">
+        <button id="search-button">Search</button>
+        
+        <script src="../javascript/click-search.js"></script>
+        
+
+        <!-- Sección del carrusel -->
+        <section class="new-release new-release--top">
+            <div class="new-release__container">
+                <div class="new-release__carousel owl-carousel owl-carousel2 owl-theme">
+                    <div class="new-release__item new-release__item--spiderman">
+                        <div class="new-release__image">
+                            <img src="" alt="Spider-Man: No Way Home">
+                        </div>
+                        <div class="new-release__content">
+                            <div class="new-release__heading">
+                                <h2 data-en="NEW RELEASE" data-ar="إصدار جديد">NEW RELEASE</h2>
+                                <h1 data-en="Spider-Man: No Way Home" data-ar="سبايدر مان: لا سبيل للعودة">Spider-Man:
+                                    No Way Home</h1>
+                            </div>
+                            <div class="new-release__time new-release__time--flex">
+                                <label>R</label>
+                                <i class="fas fa-circle"></i>
+                                <span>2hrs 28mins</span>
+                                <i class="fas fa-circle"></i>
+                                <a class="new-release__time--flex1"><img
+                                        src="https://img.icons8.com/color/95/000000/imdb.png" /> 8.2</a>
+                                <i class="fas fa-circle"></i>
+                                <p>2021</p>
+                                <i class="fas fa-circle"></i>
+                                <button data-en="Action" data-ar="أكشن">Action</button>
+                            </div>
+                            <p data-en="Peter Parker's secret identity is revealed, compelling him to reconcile his dual existence with the help of Doctor Strange, only to face even greater challenges."
+                                data-ar="يتم الكشف عن الهوية السرية لبيتر باركر، مما يجبره على التوفيق بين وجوده المزدوج بمساعدة دكتور سترينج، فقط ليواجه تحديات أكبر.">
+                                Peter Parker's secret identity is revealed, compelling him to reconcile his dual
+                                existence with the help of Doctor Strange, only to face even greater challenges.
+                            </p>
+                            <div class="new-release__button new-release__button--flex">
+                                <button class="new-release__btn" data-category="action"
+                                    data-title="Spider-Man: No Way Home" data-en="VIEW MORE" data-ar="عرض المزيد">VIEW
+                                    MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-release__item new-release__item--avatar">
+                        <div class="new-release__image new-release__image--avatar">
+                            <img src="" alt="Avatar: The Way of Water">
+                        </div>
+                        <div class="new-release__content">
+                            <div class="new-release__heading">
+                                <h2 data-en="NEW RELEASE" data-ar="إصدار جديد">NEW RELEASE</h2>
+                                <h1 data-en="Avatar: The Way of Water" data-ar="أفاتار: طريق الماء">Avatar: The Way of
+                                    Water</h1>
+                            </div>
+                            <div class="new-release__time new-release__time--flex">
+                                <label>R</label>
+                                <i class="fas fa-circle"></i>
+                                <span>3hrs 12mins</span>
+                                <i class="fas fa-circle"></i>
+                                <a class="new-release__time--flex1"><img
+                                        src="https://img.icons8.com/color/95/000000/imdb.png" /> 7.5</a>
+                                <i class="fas fa-circle"></i>
+                                <p>2022</p>
+                                <i class="fas fa-circle"></i>
+                                <button data-en="Action" data-ar="أكشن">Action</button>
+                            </div>
+                            <p data-en="Years after the original, revisits Pandora where Jake Sully and Neytiri now raise a family, exploring new aquatic terrains threatened by ancient dangers."
+                                data-ar="بعد سنوات من الأصل، يعود إلى باندورا حيث يربي جيك سولي ونيتيري الآن عائلة، يستكشفون تضاريس مائية جديدة مهددة بأخطار قديمة.">
+                                Years after the original, revisits Pandora where Jake Sully and Neytiri now raise a
+                                family, exploring new aquatic terrains threatened by ancient dangers.
+                            </p>
+                            <div class="new-release__button new-release__button--flex">
+                                <button class="new-release__btn" data-category="action"
+                                    data-title="Avatar: The Way of Water" data-en="VIEW MORE" data-ar="عرض المزيد">VIEW
+                                    MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-release__item new-release__item--thor">
+                        <div class="new-release__image">
+                            <img src="" alt="Thor: Love and Thunder">
+                        </div>
+                        <div class="new-release__content">
+                            <div class="new-release__heading">
+                                <h2 data-en="NEW RELEASE" data-ar="إصدار جديد">NEW RELEASE</h2>
+                                <h1 data-en="Thor: Love and Thunder" data-ar="ثور: الحب والرعد">Thor: Love and Thunder
+                                </h1>
+                            </div>
+                            <div class="new-release__time new-release__time--flex">
+                                <label>R</label>
+                                <i class="fas fa-circle"></i>
+                                <span>1hrs 59mins</span>
+                                <i class="fas fa-circle"></i>
+                                <a class="new-release__time--flex1"><img
+                                        src="https://img.icons8.com/color/95/000000/imdb.png" /> 6.2</a>
+                                <i class="fas fa-circle"></i>
+                                <p>2022</p>
+                                <i class="fas fa-circle"></i>
+                                <button data-en="Action" data-ar="أكشن">Action</button>
+                            </div>
+                            <p data-en="Thor embarks on a quest for peace but is drawn into a battle against a galactic killer in 'Thor: Love and Thunder,' where he discovers new allies and challenges."
+                                data-ar="ثور ينطلق في مهمة بحثًا عن السلام لكنه يجذب إلى معركة ضد قاتل مجري في 'ثور: الحب والرعد' حيث يك Discover nuevos aliados y desafíos.">
+                                Thor embarks on a quest for peace but is drawn into a battle against a galactic killer
+                                in 'Thor: Love and Thunder,' where he discovers new allies and challenges.
+                            </p>
+                            <div class="new-release__button new-release__button--flex">
+                                <button class="new-release__btn" data-category="action"
+                                    data-title="Thor: Love and Thunder" data-en="VIEW MORE" data-ar="عرض المزيد">VIEW
+                                    MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-release__item new-release__item--bubble">
+                        <div class="new-release__image">
+                            <img src="" alt="The Bubble">
+                        </div>
+                        <div class="new-release__content">
+                            <div class="new-release__heading">
+                                <h2 data-en="NEW RELEASE" data-ar="إصدار جديد">NEW RELEASE</h2>
+                                <h1 data-en="The Bubble" data-ar="الفقاعة">The Bubble</h1>
+                            </div>
+                            <div class="new-release__time new-release__time--flex">
+                                <label>R</label>
+                                <i class="fas fa-circle"></i>
+                                <span>2hrs 6mins</span>
+                                <i class="fas fa-circle"></i>
+                                <a class="new-release__time--flex1"><img
+                                        src="https://img.icons8.com/color/95/000000/imdb.png" /> 4.7</a>
+                                <i class="fas fa-circle"></i>
+                                <p>2022</p>
+                                <i class="fas fa-circle"></i>
+                                <button data-en="Comedy" data-ar="كوميديا">Comedy</button>
+                            </div>
+                            <p data-en="A comedy that dives into the chaos of making a film during a pandemic, 'The Bubble' follows a cast of actors stuck inside a hotel attempting to complete a blockbuster sequel."
+                                data-ar="كوميديا تغوص في فوضى صنع فيلم خلال جائحة، 'الفقاعة' تتبع مجموعة من الممثلين العالقين في فندق يحاولون إكمال تكملة لفيلم ناجح.">
+                                A comedy that dives into the chaos of making a film during a pandemic, 'The Bubble'
+                                follows a cast of actors stuck inside a hotel attempting to complete a blockbuster
+                                sequel.
+                            </p>
+                            <div class="new-release__button new-release__button--flex">
+                                <button class="new-release__btn" data-category="comedy" data-title="The Bubble"
+                                    data-en="VIEW MORE" data-ar="عرض المزيد">VIEW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-release__item new-release__item--lost-city">
+                        <div class="new-release__image">
+                            <img src="" alt="The Lost City">
+                        </div>
+                        <div class="new-release__content">
+                            <div class="new-release__heading">
+                                <h2 data-en="NEW RELEASE" data-ar="إصدار جديد">NEW RELEASE</h2>
+                                <h1 data-en="The Lost City" data-ar="المدينة المفقودة">The Lost City</h1>
+                            </div>
+                            <div class="new-release__time new-release__time--flex">
+                                <label>R</label>
+                                <i class="fas fa-circle"></i>
+                                <span>1hrs 52mins</span>
+                                <i class="fas fa-circle"></i>
+                                <a class="new-release__time--flex1"><img
+                                        src="https://img.icons8.com/color/95/000000/imdb.png" /> 6.1</a>
+                                <i class="fas fa-circle"></i>
+                                <p>2022</p>
+                                <i class="fas fa-circle"></i>
+                                <button data-en="Comedy" data-ar="كوميديا">Comedy</button>
+                            </div>
+                            <p data-en="The story follows a romance novelist, who finds herself on a real-life adventure when a charming treasure hunter convinces her to help him find a lost city."
+                                data-ar="تتبع القصة روائية رومانسية، تجد نفسها في مغامرة واقعية عندما يقنعها صائد كنوز ساحر بمساعدته في البحث عن مدينة مفقودة.">
+                                The story follows a romance novelist, who finds herself on a real-life adventure when a
+                                charming treasure hunter convinces her to help him find a lost city.
+                            </p>
+                            <div class="new-release__button new-release__button--flex">
+                                <button class="new-release__btn" data-category="comedy" data-title="The Lost City"
+                                    data-en="VIEW MORE" data-ar="عرض المزيد">VIEW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Owl Carousel JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    </main>
+   
+        <!-- Footer section -->
+        <footer class="footer">
+            <div class="footer__container footer__container--mtop">
+                <div class="footer__box">
+                    <div class="footer__logo">
+                        <img class="footer__logo-image"
+                            src="https://t3.ftcdn.net/jpg/05/45/24/86/240_F_545248609_qbkuQGuDkHqgDCunGvNBlR2phjS2uv9T.jpg"
+                            alt="CinemaX logo">
+                        <span class="footer__text" data-key="footer-logo">CinemaX</span>
+                    </div>
+                    <p class="footer__description" data-key="footer-description">
+                        Welcome to CinemaX. Since 1995, bringing you thrilling adventures, endless laughter, and unforgettable memories. See you at the movies!
+                    </p>
+                    <div class="footer__icons">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-youtube-square"></i>
+                    </div>
+                </div>
+
+
+                <div class="footer__box">
+                    <h2 class="footer__heading" data-key="explore">Explore</h2>
+                    <div class="footer__flex">
+                        <ul class="footer__list">
+                            <li class="footer__list-item" data-key="home">Home</li>
+                            <li class="footer__list-item" data-key="tv-shows">Tv Shows</li>
+                            <li class="footer__list-item" data-key="actors">Actors</li>
+                            <li class="footer__list-item" data-key="celebrity">Celebrity</li>
+                        </ul>
+                        <ul class="footer__list footer__list--second">
+                            <li class="footer__list-item" data-key="movie">Movie</li>
+                            <li class="footer__list-item" data-key="video">Video</li>
+                            <li class="footer__list-item" data-key="basketball">Basketball</li>
+                            <li class="footer__list-item" data-key="coress">Coress</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__box">
+                    <h2 class="footer__heading" data-key="company">Company</h2>
+                    <div class="footer__flex">
+                        <ul class="footer__list">
+                            <li class="footer__list-item" data-key="company">Company</li>
+                            <li class="footer__list-item" data-key="terms-of-use">Terms of Use</li>
+                            <li class="footer__list-item" data-key="contact-us">Contact us</li>
+                            <li class="footer__list-item" data-key="our-team">Our Team</li>
+                        </ul>
+                        <ul class="footer__list footer__list--second">
+                            <li class="footer__list-item" data-key="privacy-policy">Privacy Policy</li>
+                            <li class="footer__list-item" data-key="helps-center">Helps Center</li>
+                            <li class="footer__list-item" data-key="subscribe">Subscribe</li>
+                            <li class="footer__list-item" data-key="faq">FAQ</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__box">
+                    <h2 class="footer__heading" data-key="download-app">Download App</h2>
+                    <p class="footer__description" data-key="download-app-description">
+                        Experience CinemaX on the go! Download our app to check showtimes, book tickets, and watch trailers.
+                    </p>
+                    <div class="footer__images">
+                        <img class="footer__image" src="../images/app1.png" alt="">
+                        <img class="footer__image" src="../images/app2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <p class="footer__legal">Copyright (c) 2024 Copyright Holder All Rights Reserved</p>
+        </footer>
+
+
+    <!-- Incluir el archivo JavaScript -->
+    <script src="../javascript/header.js"></script>
+    <script src="../javascript/carousel.js"></script>
+    <script src="../javascript/movie-details.js"></script>
+    <script src="../javascript/search.js"></script>
+    <script src="../javascript/categories.js"></script>
+    <script src="../javascript/theme.js"></script>
+
+</body>
+
+</html>

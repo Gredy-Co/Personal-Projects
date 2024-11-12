@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA717C06-A3EA-4B45-A9F4-4CF97FA8E7B6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProyectoSunGlow___Progra_3</RootNamespace>
+    <AssemblyName>ProyectoSunGlow - Progra 3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Datos\Conexion.cs" />
+    <Compile Include="Datos\DatosBin.cs" />
+    <Compile Include="Datos\DatosBloque.cs" />
+    <Compile Include="Datos\DatosBoletaCosecha.cs" />
+    <Compile Include="Datos\DatosDetalleCosecha.cs" />
+    <Compile Include="Datos\DatosEmpaque.cs" />
+    <Compile Include="Datos\DatosPalletizado.cs" />
+    <Compile Include="Datos\DatosReporte.cs" />
+    <Compile Include="Datos\Objetos\OBJEmpaque.cs" />
+    <Compile Include="Datos\DatosFinca.cs" />
+    <Compile Include="Datos\DatosLote.cs" />
+    <Compile Include="Datos\DatosMovimiento.cs" />
+    <Compile Include="Datos\Objetos\OBJPalletizado.cs" />
+    <Compile Include="Datos\DatosProveedor.cs" />
+    <Compile Include="Datos\DatosTipoDeFruto.cs" />
+    <Compile Include="Datos\DatosUsuario.cs" />
+    <Compile Include="Datos\DatosVariedadDeFruto.cs" />
+    <Compile Include="Datos\DatosRecepcionEnvio.cs" />
+    <Compile Include="Datos\DatosInmersion.cs" />
+    <Compile Include="Datos\Objetos\OBJBin.cs" />
+    <Compile Include="Datos\Objetos\OBJBloque.cs" />
+    <Compile Include="Datos\Objetos\OBJBoletaCosecha.cs" />
+    <Compile Include="Datos\Objetos\OBJDetalleCosecha.cs" />
+    <Compile Include="Datos\Objetos\OBJFinca.cs" />
+    <Compile Include="Datos\Objetos\OBJInmersion.cs" />
+    <Compile Include="Datos\Objetos\OBJLote.cs" />
+    <Compile Include="Datos\Objetos\OBJMovimiento.cs" />
+    <Compile Include="Datos\Objetos\OBJProveedor.cs" />
+    <Compile Include="Datos\Objetos\OBJRecepcionEnvio.cs" />
+    <Compile Include="Datos\Objetos\OBJTipoDeFruto.cs" />
+    <Compile Include="Datos\Objetos\OBJVariedadDeFruto.cs" />
+    <Compile Include="Interfaz Grafica\Administrador\VenBinesCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenBinesCRUD.Designer.cs">
+      <DependentUpon>VenBinesCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenBloquesCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenBloquesCRUD.Designer.cs">
+      <DependentUpon>VenBloquesCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Digitador\VenEntradaBoletas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Digitador\VenEntradaBoletas.Designer.cs">
+      <DependentUpon>VenEntradaBoletas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Digitador\VenEntradaEnvios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Digitador\VenEntradaEnvios.Designer.cs">
+      <DependentUpon>VenEntradaEnvios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenFincasCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenFincasCRUD.Designer.cs">
+      <DependentUpon>VenFincasCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenLotesCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenLotesCRUD.Designer.cs">
+      <DependentUpon>VenLotesCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Digitador\VenInmersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Digitador\VenInmersion.Designer.cs">
+      <DependentUpon>VenInmersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Digitador\VenRecepcionEnvios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Digitador\VenRecepcionEnvios.Designer.cs">
+      <DependentUpon>VenRecepcionEnvios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenTiposDeFrutosCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenTiposDeFrutosCRUD.Designer.cs">
+      <DependentUpon>VenTiposDeFrutosCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenVariedadDeFrutoCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenVariedadDeFrutoCRUD.Designer.cs">
+      <DependentUpon>VenVariedadDeFrutoCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Digitador\VenBoletaCosechaDetalleCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Digitador\VenBoletaCosechaDetalleCRUD.Designer.cs">
+      <DependentUpon>VenBoletaCosechaDetalleCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Digitador\VenDigiMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Digitador\VenDigiMenu.Designer.cs">
+      <DependentUpon>VenDigiMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Digitador\VenEmpaqueYPalletizadoCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Digitador\VenEmpaqueYPalletizadoCRUD.Designer.cs">
+      <DependentUpon>VenEmpaqueYPalletizadoCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\VenLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\VenLogin.Designer.cs">
+      <DependentUpon>VenLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\VenMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\VenMenuPrincipal.Designer.cs">
+      <DependentUpon>VenMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenAdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenAdminMenu.Designer.cs">
+      <DependentUpon>VenAdminMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenProveedoresCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenProveedoresCRUD.Designer.cs">
+      <DependentUpon>VenProveedoresCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenUsuariosCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Administrador\VenUsuariosCRUD.Designer.cs">
+      <DependentUpon>VenUsuariosCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Programa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\Programa.Designer.cs">
+      <DependentUpon>Programa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Datos\Objetos\OBJUsuario.cs" />
+    <Compile Include="Interfaz Grafica\VenReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\VenReportes.Designer.cs">
+      <DependentUpon>VenReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz Grafica\VenRepMovimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz Grafica\VenRepMovimientos.Designer.cs">
+      <DependentUpon>VenRepMovimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ToolBox Personalizado\ButtonRedondeado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolBox Personalizado\TextBoxCuadrado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolBox Personalizado\TextBoxCuadrado.Designer.cs">
+      <DependentUpon>TextBoxCuadrado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolBox Personalizado\TextBoxRedondeado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolBox Personalizado\TextBoxRedondeado.Designer.cs">
+      <DependentUpon>TextBoxRedondeado.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Interfaz Grafica\Administrador\VenBinesCRUD.resx">
+      <DependentUpon>VenBinesCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Administrador\VenBloquesCRUD.resx">
+      <DependentUpon>VenBloquesCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Digitador\VenEntradaBoletas.resx">
+      <DependentUpon>VenEntradaBoletas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Digitador\VenEntradaEnvios.resx">
+      <DependentUpon>VenEntradaEnvios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Administrador\VenFincasCRUD.resx">
+      <DependentUpon>VenFincasCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Administrador\VenLotesCRUD.resx">
+      <DependentUpon>VenLotesCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Administrador\VenProveedoresCRUD.resx">
+      <DependentUpon>VenProveedoresCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Digitador\VenInmersion.resx">
+      <DependentUpon>VenInmersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Digitador\VenRecepcionEnvios.resx">
+      <DependentUpon>VenRecepcionEnvios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Administrador\VenTiposDeFrutosCRUD.resx">
+      <DependentUpon>VenTiposDeFrutosCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Administrador\VenVariedadDeFrutoCRUD.resx">
+      <DependentUpon>VenVariedadDeFrutoCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Digitador\VenBoletaCosechaDetalleCRUD.resx">
+      <DependentUpon>VenBoletaCosechaDetalleCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Digitador\VenDigiMenu.resx">
+      <DependentUpon>VenDigiMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Digitador\VenEmpaqueYPalletizadoCRUD.resx">
+      <DependentUpon>VenEmpaqueYPalletizadoCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\VenLogin.resx">
+      <DependentUpon>VenLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\VenMenuPrincipal.resx">
+      <DependentUpon>VenMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Administrador\VenAdminMenu.resx">
+      <DependentUpon>VenAdminMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Administrador\VenUsuariosCRUD.resx">
+      <DependentUpon>VenUsuariosCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\Programa.resx">
+      <DependentUpon>Programa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\VenReportes.resx">
+      <DependentUpon>VenReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz Grafica\VenRepMovimientos.resx">
+      <DependentUpon>VenRepMovimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBox Personalizado\ButtonRedondeado.resx">
+      <DependentUpon>ButtonRedondeado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBox Personalizado\TextBoxCuadrado.resx">
+      <DependentUpon>TextBoxCuadrado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBox Personalizado\TextBoxRedondeado.resx">
+      <DependentUpon>TextBoxRedondeado.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Logica\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maximizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Restaurar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CerrarSesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconoUserIS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoAdmPinas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconoMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OjoAbierto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OjoCerrado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoCRUDS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camion..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Campo..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cosecha..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piña..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Consultar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Borrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgMenuPanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Configuracion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoEnvio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoRecEnvio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoEntEnvios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoEntrEnvios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Mas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoBolCosDet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Atras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoInmersion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconoUsuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconoReporte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lavar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portapapeles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconoBoleta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empaque.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pina.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

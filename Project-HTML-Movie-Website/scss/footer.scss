@@ -1,0 +1,135 @@
+/*=============== IMPORTS ===============*/
+@import 'colors';
+@import "mixins/media-queries";
+
+.container {
+    max-width: 95%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.footer {
+    background: #221F1F;
+    color: white;
+
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        padding: 10px;
+
+        @include md{
+            grid-template-columns: repeat(4, 1fr);
+            margin-left: 45px;
+            margin-right: 45px;
+        }
+
+        &--mtop {
+            margin-top: 2%;
+        }
+    }
+
+    &__box {
+        margin-top: 2px;
+
+        @include lg{
+            margin-top: 50px;
+        }
+    }
+
+    &__logo {
+        display: inline-flex;
+        align-items: center;
+        column-gap: .25rem;
+
+        &-image {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+    &__description {
+        margin-bottom: 20px;
+        opacity: 0.7;
+        line-height: 30px;
+
+    }
+
+    &__icons i {
+        margin-right: 20px;
+        font-size: 30px;
+        transition: 0.5s;
+
+        &:hover {
+            color: #E50916;
+        }
+    }
+
+    &__heading {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    &__flex {
+        display: flex;
+    }
+
+    &__list {
+        list-style: none;
+        padding: 25px;
+
+        @include md{
+            padding: 10px;
+        }
+
+        &-item {
+            margin-bottom: 15px;
+            opacity: 0.7;
+            transition: 0.5s;
+            cursor: pointer;
+
+            &::before {
+                content: "\2022";
+                color: red;
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+            }
+
+            &:hover {
+                color: #E50916;
+            }
+        }
+
+        &--second {
+            margin-left: 0;
+        }
+    }
+
+    &__images {
+       @include lg{
+        display: flex;
+       }
+
+        & img {
+            margin: 5px;
+            width: auto;
+            height: auto;
+        }
+    }
+
+    &__legal {
+        text-align: center;
+        background: $primary-color;
+        padding: 20px;
+        margin: 0;
+        margin-top: 50px;
+        font-size: 14px;
+    }
+}

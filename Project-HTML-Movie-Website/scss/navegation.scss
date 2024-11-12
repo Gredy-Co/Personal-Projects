@@ -1,0 +1,89 @@
+// Importaciones de estilos y mixins
+@import 'colors';
+@import "mixins/media-queries";
+
+// Estilos para la barra de navegación
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: $third-color; // Color de fondo de la navegación
+
+    // Pseudo-elemento para el fondo detrás de la navegación
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    // Estilos para el contenedor del menú de navegación
+    &__menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+
+        // Media query para pantallas extra grandes
+        @include xl {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    // Media queries para diferentes tamaños de pantalla
+    @include md {
+        position: static;
+        background-color: transparent;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    @include lg {
+        justify-content: space-between;
+        padding: 10px 40px;
+    }
+}
+
+// Estilos para el contenedor principal de la navegación
+.navigation__nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: $third-color; // Color de fondo de la navegación
+    padding: 10px;
+    position: relative;
+
+    // Estilos para el logo de la navegación
+    .navigation__logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: auto;
+        font-size: larger;
+
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+   
+    
+}

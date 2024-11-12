@@ -1,0 +1,199 @@
+// Importación de estilos y mixins
+@import "mixins/media-queries"; 
+@import 'colors';
+
+// Ajuste global para el box-sizing
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+// Estilo para el contenedor del héroe y sus elementos
+.hero-container {
+    position: relative;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // Estilo para el fondo del héroe
+    &__background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+        img {
+            width: 100%;
+            height: auto;
+            filter: blur(8px);
+        }
+    }
+
+    // Estilo para el contenido del héroe
+    &__content {
+        width: 100%;
+        max-width: 1200px;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        // Estilo para el vídeo dentro del contenido del héroe
+        &__video {
+            width: 100%;
+            position: relative;
+            padding-bottom: 56.25%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+
+            iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+        }
+
+        // Estilo para la tarjeta de películas dentro del contenido del héroe
+        .movie-card {
+            max-width: 600px;
+            margin: 0 auto; // Centrar horizontalmente la tarjeta
+            padding: 2rem; // Ajuste el padding según sea necesario
+            background-color: $card-color;
+            border-radius: 5px;
+            text-align: center;
+
+            // Estilo para la imagen de la tarjeta de películas
+            &__img {
+                width: 100%; 
+                max-width: 100%;
+                height: auto;
+                border-radius: 10px;
+                margin-bottom: 2rem;
+            }
+
+            // Estilo para el título de la tarjeta de películas
+            &__title {
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin-bottom: 0.5rem;
+                color: $primary-color;
+            }
+
+            // Estilo para el autor y la fecha de la tarjeta de películas
+            &__author,
+            &_date, &_description{
+                font-size: 1rem;
+                margin-bottom: 0.5rem;
+                color: $primary-color;
+            }
+
+            // Media query para pantallas medianas
+            @include md {
+                margin-top: 0;
+                align-self: flex-start;
+            }
+        }
+    }
+
+    // Estilo para el fondo del resumen de la película
+    .movie-summary-background {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        color: #fff;
+        display: grid;
+        grid-template-columns: 2fr;
+        gap: 10px;
+
+        // Estilo para el resumen de la película
+        .movie-summary {
+            max-width: 1100px;
+            margin-top: 2rem;
+            color: $secondary-color;
+            text-align: center;
+
+            // Estilo para el título del resumen de la película
+            &__title {
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin-bottom: 1rem;
+            }
+
+            // Estilo para el texto del resumen de la película
+            &__text {
+                font-size: 1rem;
+                line-height: 1.5;
+                margin-bottom: 1rem;
+            }
+
+            // Estilo para el rating del resumen de la película
+            .post-details__rating {
+                margin-top: 1rem;
+                display: flex;
+                justify-content: center;
+            
+                .post-details__star {
+                    display: none;
+                }
+
+                label {
+                    font-size: 2rem;
+                    color: $secondary-color; // Color por defecto para estrellas no seleccionadas
+                    cursor: pointer;
+                    transition: color 0.2s;
+            
+                    &:hover,
+                    &:hover ~ label {
+                        color: #f7ce3e; // Color al hacer hover sobre las estrellas
+                    }
+                }
+            
+                input[type="radio"] {
+                    display: none; // Oculta los radios
+                }
+            
+                // Estrellas seleccionadas
+                input[type="radio"]:checked ~ label {
+                    color: #f7ce3e; // Color de estrella seleccionada
+                }
+            
+                // Estrellas anteriores a la seleccionada
+                input[type="radio"]:checked ~ label ~ label {
+                    color: #f7ce3e; // Color de estrellas anteriores
+                }
+            }
+        }
+
+        // Media query para pantallas grandes
+        @include lg {
+            display: flex;
+            gap: 2rem;
+            grid-template-columns: repeat(4, 1fr);
+
+            // Ajuste de estilo para la tarjeta de películas en pantallas grandes
+            .movie-card {
+                max-width: 700px; // Ampliar el ancho máximo para escritorios grandes
+            }
+
+            // Ajuste de estilo para el resumen de la película en pantallas grandes
+            .movie-summary {
+                flex: 1;
+                text-align: left;
+                margin-top: 0;
+                margin-left: 2rem;
+            }
+        }
+    }
+}

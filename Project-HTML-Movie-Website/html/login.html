@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/de231853e1.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../../css/login.css">
+    <link rel="stylesheet" href="../../css/themes.css">
+
+
+    <title>Login</title>
+</head>
+<body>
+    <button id="switch" class="switch">
+      <span><i class="fa-regular fa-sun"></i></span>
+      <span><i class="fa-solid fa-moon"></i></span>
+    </button>
+
+    <div class="login">
+        <form id="loginForm" class="login__form">
+            <h1 class="login__title">Login</h1>
+            <div class="login__field">
+                <label for="username" class="login__label">Enter your user</label>
+                <input type="text" id="username" name="username" class="login__input" required>
+            </div>
+            <div class="login__field">
+                <label for="password" class="login__label">Enter your password</label>
+                <input type="password" id="password" name="password" class="login__input" required minlength="8">
+            </div>
+            <button type="submit" class="login__button">Log In</button>
+        </form>
+        <div id="loginMessage" class="login__message"></div>
+    </div>
+    <script src="../javascript/login.js"></script>
+    <script src="../javascript/theme-toggle.js"></script>
+
+</body>
+
+</html>

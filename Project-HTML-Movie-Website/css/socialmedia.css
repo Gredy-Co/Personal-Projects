@@ -1,0 +1,119 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+}
+
+.content4 {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 40px;
+  position: relative;
+}
+.content4 h1 {
+  font-weight: bold;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+}
+.content4 hr {
+  width: 100px;
+  height: 3px;
+  margin: auto;
+  border-style: none;
+  background: -webkit-linear-gradient(left, red, blue, #82B2EE);
+  margin-top: 20px;
+}
+.content4 p {
+  margin-top: 40px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 50%;
+}
+.content4 .socialmedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content4 .socialmedia ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.content4 .socialmedia li {
+  width: 55px;
+  height: 55px;
+  display: flex; /* Usar Flexbox */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid rgb(0, 0, 0);
+  transition: all 0.5s ease;
+  position: relative;
+}
+.content4 .socialmedia li .fa {
+  color: rgb(0, 0, 0);
+  font-size: 25px; /* Asegurarse de que el tamaño del ícono sea correcto */
+  transition: all 0.5s ease;
+  box-shadow: none; /* Asegurarse de que no haya sombra en el ícono */
+  position: relative;
+}
+.content4 .socialmedia li.facebook:hover {
+  border: 5px solid rgb(29, 36, 145);
+  box-shadow: 0 0 15px rgb(29, 36, 145);
+}
+.content4 .socialmedia li.facebook:hover .fa-facebook {
+  color: rgb(29, 36, 145);
+  text-shadow: 0 0 15px rgb(29, 36, 145);
+}
+.content4 .socialmedia li.twitter:hover {
+  border: 5px solid rgb(104, 114, 255);
+  box-shadow: 0 0 15px rgb(104, 114, 255);
+}
+.content4 .socialmedia li.twitter:hover .fa-twitter {
+  color: rgb(104, 114, 255);
+  text-shadow: 0 0 15px rgb(104, 114, 255);
+}
+.content4 .socialmedia li.instagram:hover {
+  border: 5px solid rgb(253, 63, 104);
+  box-shadow: 0 0 15px rgb(253, 63, 104);
+}
+.content4 .socialmedia li.instagram:hover .fa-instagram {
+  color: rgb(253, 63, 104);
+  text-shadow: 0 0 15px rgb(253, 63, 104);
+}
+.content4 .socialmedia li.whatsapp:hover {
+  border: 5px solid rgb(70, 185, 46);
+  box-shadow: 0 0 15px rgb(70, 185, 46);
+}
+.content4 .socialmedia li.whatsapp:hover .fa-whatsapp {
+  color: rgb(70, 185, 46);
+  text-shadow: 0 0 15px rgb(70, 185, 46);
+}
+.content4 .socialmedia li.tiktok:hover {
+  border: 5px solid rgb(0, 0, 0);
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+.content4 .socialmedia li.tiktok:hover .fa-tiktok {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+i {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  border-radius: 50%;
+  transition: 0.3s ease;
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=socialmedia.css.map */

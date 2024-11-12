@@ -1,0 +1,298 @@
+{
+  "action": [
+    {
+      "title": "Spider-Man: No Way Home",
+      "title_ar": "سبايدر مان: لا سبيل للعودة",
+      "author": "Jon Watts",
+      "author_ar": "جون واتس",
+      "date": "December 17, 2021",
+      "date_ar": "17 ديسمبر 2021",
+      "description": "After Peter Parker's secret identity as Spider-Man is discovered, the young man's life becomes crazy. Peter asks Doctor Strange for help to get his life back, but something goes wrong and causes a fracture in the multiverse.",
+      "description_ar": "بعد اكتشاف الهوية السرية لبيتر باركر كسبايدر مان، يصبح حياة الشاب مجنونة. يطلب بيتر من دكتور سترينج المساعدة لاستعادة حياته، لكن يحدث خطأ ما يتسبب في حدوث شرخ في المتعدد الأكوان.",
+      "image": "https://th.bing.com/th/id/R.0c8cd85e2c5d790eec3634ff96768230?rik=OeGsaOfUEbEybQ&pid=ImgRaw&r=0",
+      "trailer": "https://www.youtube.com/embed/JfVOs4VSpmA"
+    },
+    {
+      "title": "Avatar: The Way of Water",
+      "title_ar": "أفاتار: طريق الماء",
+      "author": "James Cameron",
+      "author_ar": "جيمس كاميرون",
+      "date": "December 16, 2022",
+      "date_ar": "16 ديسمبر 2022",
+      "description": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+      "description_ar": "يعيش جيك سولي مع عائلته الجديدة التي تشكلت على القمر الخارجي باندورا. مع عودة تهديد مألوف لإنهاء ما بدأ سابقًا، يجب على جيك العمل مع نيتيري وجيش سباق النا'في لحماية منزلهم.",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/110CYDvtnVRWs9meC4lsZCz98vg.jpg",
+      "trailer": "https://www.youtube.com/embed/d9MyW72ELq0"
+    },
+    {
+      "title": "Mission: Impossible - Dead Reckoning Part One",
+      "title_ar": "مهمة مستحيلة - تقدير الموت الجزء الأول",
+      "author": "Christopher McQuarrie",
+      "author_ar": "كريستوفر مكواري",
+      "date": "May 14, 2023",
+      "date_ar": "14 مايو 2023",
+      "description": "Ethan must stop an artificial intelligence that all the world powers covet, which has become so powerful that it rebelled against its creators and is now a threat itself.",
+      "description_ar": "يجب على إيثان إيقاف ذكاء اصطناعي يطمع فيه جميع قوى العالم، وقد أصبح قويًا جدًا لدرجة أنه تمرد على خالقيه وأصبح يشكل تهديدًا بحد ذاته.",
+      "image": "https://th.bing.com/th/id/OIP.l8Ne3enE0PVr0WMKhNJocQAAAA?rs=1&pid=ImgDetMain",
+      "trailer": "https://www.youtube.com/embed/2m1drlOZSDw"
+    },
+    {
+      "title": "Thor: Love and Thunder",
+      "title_ar": "ثور: الحب والرعد",
+      "author": "Taika Waititi",
+      "author_ar": "تايكا وايتيتي",
+      "date": "July 8, 2022",
+      "date_ar": "8 يوليو 2022",
+      "description": "The film finds Thor on a journey unlike anything he's ever faced — a quest for inner peace. But his retirement is interrupted by a galactic killer known as Gorr the God Butcher, who seeks the extinction of the gods.",
+      "description_ar": "يجد الفيلم ثور في رحلة لم يواجه مثلها من قبل - رحلة البحث عن السلام الداخلي. لكن تقاعده ينقطع بواسطة قاتل مجري يُعرف باسم جور الإله الجزار، الذي يسعى لإبادة الآلهة.",
+      "image": "https://th.bing.com/th/id/OIP.Eq23-sPaSPBzfdMZcID9kgHaJQ?rs=1&pid=ImgDetMain",
+      "trailer": "https://www.youtube.com/embed/tgB1wUcmbbw"
+    },
+    {
+      "title": "Black Panther: Wakanda Forever",
+      "title_ar": "النمر الأسود: واكاندا إلى الأبد",
+      "author": "Ryan Coogler",
+      "author_ar": "ريان كوغلر",
+      "date": "November 11, 2022",
+      "date_ar": "11 نوفمبر 2022",
+      "description": "After the death of T'Challa, Queen Ramonda, Shuri, M'Baku, Okoye, and the Dora Milaje protect Wakanda from interference by world powers.",
+      "description_ar": "بعد وفاة ت'شالا، تقوم الملكة راموندا، شوري، إم'باكو، أوكوي والدورا ميليج بحماية واكاندا من تدخلات القوى العالمية.",
+      "image": "https://th.bing.com/th/id/OIP.EO3c7a_8aYNRXOEWE0ltzAAAAA?rs=1&pid=ImgDetMain",
+      "trailer": "https://www.youtube.com/embed/_Z3QKkl1WyM"
+    },
+    {
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "title_ar": "دكتور سترينج في متعدد الأكوان من الجنون",
+      "author": "Sam Raimi",
+      "author_ar": "سام ريمي",
+      "date": "May 6, 2022",
+      "date_ar": "6 مايو 2022",
+      "description": "Doctor Strange teams up with a mysterious teenage girl who can travel across multiverses, to battle other-universe versions of himself which threaten to wipe out the multiverse. They seek help from the Scarlet Witch, Wong and others.",
+      "description_ar": "يتعاون دكتور سترينج مع فتاة مراهقة غامضة يمكنها السفر عبر متعدد الأكوان، لمحاربة نسخ من أكوان أخرى من نفسه تهدد بمحو المتعدد الأكوان. يطلبون المساعدة من الساحرة القرمزية، وونغ وآخرين.",
+      "image": "https://th.bing.com/th/id/R.06dedb661353cb35ddc6fe3464e9f3cb?rik=pC4IahKEK7qTWQ&pid=ImgRaw&r=0",
+      "trailer": "https://www.youtube.com/embed/aWzlQ2N6qqg"
+    }
+  ],
+  "comedy": [
+    {
+      "title": "Shazam! Fury of the Gods",
+      "title_ar": "شازام! غضب الآلهة",
+      "author": "David F. Sandberg",
+      "author_ar": "ديفيد إف. ساندبرج",
+      "date": "June 2, 2023",
+      "date_ar": "2 يونيو 2023",
+      "description": "The sequel to Shazam! (2019), where teenager Billy Batson transforms into an adult superhero shouting the word Shazam!",
+      "description_ar": "التتمة لفيلم شازام! (2019)، حيث يتحول المراهق بيلي باتسون إلى بطل خارق بالغ بصراخ كلمة شازام!",
+      "image": "https://th.bing.com/th/id/OIP.6_9w40yIu91bRN-UrX1AkQHaK9?rs=1&pid=ImgDetMain",
+      "trailer": "https://www.youtube.com/embed/AIc671o9yCI"
+    },
+    {
+      "title": "The Bubble",
+      "title_ar": "الفقاعة",
+      "author": "Judd Apatow",
+      "author_ar": "جاد أباتو",
+      "date": "April 1, 2022",
+      "date_ar": "1 أبريل 2022",
+      "description": "A group of actors and actresses trapped within a pandemic bubble in a hotel try to complete a film.",
+      "description_ar": "مجموعة من الممثلين والممثلات محاصرين داخل فقاعة وبائية في فندق يحاولون إكمال فيلم.",
+      "image": "https://martincid.com/wp-content/uploads/2022/04/the_bubble-328756302-large-770x1141.jpg",
+      "trailer": "https://www.youtube.com/embed/v=BymvTpu__tk"
+    },
+    {
+      "title": "Everything Everywhere All at Once",
+      "title_ar": "كل شيء في كل مكان في وقت واحد",
+      "author": "Daniel Kwan, Daniel Scheinert",
+      "author_ar": "دانيال كوان، دانيال شاينرت",
+      "date": "March 25, 2022",
+      "date_ar": "25 مارس 2022",
+      "description": "A Chinese-American woman discovers a way to access parallel universes and uses it to solve her personal problems, but unleashes hell on earth in the process.",
+      "description_ar": "تكتشف امرأة صينية-أمريكية طريقة للوصول إلى الأكوان المتوازية وتستخدمها لحل مشاكلها الشخصية، لكنها تطلق الجحيم على الأرض في هذه العملية.",
+      "image": "https://th.bing.com/th/id/R.8186c260d782a866c5b50563db7fba17?rik=76hgMC8BO89oXw&pid=ImgRaw&r=0",
+      "trailer": "https://www.youtube.com/embed/wxN1T1uxQ2g"
+    },
+    {
+      "title": "The Lost City",
+      "title_ar": "المدينة المفقودة",
+      "author": "Aaron Nee, Adam Nee",
+      "author_ar": "آرون ني، آدم ني",
+      "date": "March 25, 2022",
+      "date_ar": "25 مارس 2022",
+      "description": "A reclusive romance novelist on a book tour with her cover model gets swept up in a kidnapping attempt that lands them both in a cutthroat jungle adventure.",
+      "description_ar": "روائية رومانسية منعزلة في جولة كتاب مع نموذج غلافها تُقحم في محاولة اختطاف تأخذهما في مغامرة قاتلة في الأدغال.",
+      "image": "https://th.bing.com/th/id/R.d967cd5a1e953f0570a65ee868d7ceea?rik=QFR7%2fxpFLNdvyQ&pid=ImgRaw&r=0",
+      "trailer": "https://www.youtube.com/embed/nfKO9rYDmE8"
+    },
+    {
+      "title": "The Mitchells vs. The Machines",
+      "title_ar": "عائلة ميتشل ضد الآلات",
+      "author": "Michael Rianda, Jeff Rowe",
+      "author_ar": "مايكل رياندا، جيف رو",
+      "date": "April 23, 2021",
+      "date_ar": "23 أبريل 2021",
+      "description": "A quirky, dysfunctional family's road trip is interrupted by a robot uprising, forcing them to band together to save humanity.",
+      "description_ar": "رحلة على الطريق لعائلة غريبة الأطوار ومختلة تنقطع بتمرد روبوت، مما يجبرهم على التوحد لإنقاذ البشرية.",
+      "image": "https://th.bing.com/th/id/OIP.tq3JSFL8emtuu9EAwraS_gHaLH?rs=1&pid=ImgDetMain",
+      "trailer": "https://www.youtube.com/embed/_ak5dFt8Ar0"
+    },
+    {
+      "title": "The French Dispatch",
+      "title_ar": "النشرة الفرنسية",
+      "author": "Wes Anderson",
+      "author_ar": "ويس أندرسون",
+      "date": "October 22, 2021",
+      "date_ar": "22 أكتوبر 2021",
+      "description": "A love letter to journalists set in an American magazine booth in a fictional 20th century French city that brings to life a collection of stories published in The French Dispatch magazine.",
+      "description_ar": "رسالة حب إلى الصحفيين موضوعة في كشك مجلة أمريكية في مدينة فرنسية خيالية في القرن العشرين تُحيي مجموعة من القصص المنشورة في مجلة النشرة الفرنسية.",
+      "image": "https://th.bing.com/th/id/R.4b64fd3f32e8e09cea65f2fad8622c75?rik=8NvhItksAJ9eBA&pid=ImgRaw&r=0",
+      "trailer": "https://www.youtube.com/embed/TcPk2p0Zaw4"
+    }
+  ],
+  "horror": [
+    {
+      "title": "The Conjuring: The Devil Made Me Do It",
+      "title_ar": "الشعوذة: الشيطان أجبرني على فعل ذلك",
+      "author": "Michael Chaves",
+      "author_ar": "مايكل تشافيز",
+      "date": "June 4, 2021",
+      "date_ar": "4 يونيو 2021",
+      "description": "The Warrens investigate a murder that may be linked to a demonic possession.",
+      "description_ar": "يحقق وارنز في جريمة قتل قد تكون مرتبطة بامتلاك شيطاني.",
+      "image": "https://lh6.googleusercontent.com/proxy/XhqLmTUH3FLrzX3aGNAuh_xO_MoWoMdH0871gLLIdYr9rTvqlBBGZGlWGWKs3M44wrC9B7CkLiygMKBosiMZ-r3fiSQXFtQSzzjPx2cVY1fj5yqRs7owurKDz9E8sS7ZuSP8",
+      "trailer": "https://www.youtube.com/embed/h9Q4zZS2v1k"
+    },
+    {
+      "title": "A Quiet Place Part II",
+      "title_ar": "مكان هادئ الجزء الثاني",
+      "author": "John Krasinski",
+      "author_ar": "جون كراسينسكي",
+      "date": "May 28, 2021",
+      "date_ar": "28 مايو 2021",
+      "description": "Following the deadly events at home, the Abbott family must now face the terrors of the outside world as they continue their fight for survival in silence.",
+      "description_ar": "بعد الأحداث القاتلة في المنزل، يجب على عائلة أبوت الآن مواجهة رعب العالم الخارجي بينما يستمرون في نضالهم من أجل البقاء على قيد الحياة في صمت.",
+      "image": "https://image.tmdb.org/t/p/original/6wUN67cWo6mLlhsrSVxZY0pmlSq.jpg",
+      "trailer": "https://www.youtube.com/embed/BpdDN9d9Jio"
+    },
+    {
+      "title": "Halloween Kills",
+      "title_ar": "هالوين يقتل",
+      "author": "David Gordon Green",
+      "author_ar": "ديفيد غوردون جرين",
+      "date": "October 15, 2021",
+      "date_ar": "15 أكتوبر 2021",
+      "description": "Laurie Strode and her family fight Michael Myers after he escapes from the trap she set for him.",
+      "description_ar": "لوري سترود وعائلتها يقاتلون مايكل مايرز بعد أن يهرب من الفخ الذي نصبته له.",
+      "image": "https://m.media-amazon.com/images/I/71w5ZfiGo5L._AC_UF894,1000_QL80_.jpg",
+      "trailer": "https://www.youtube.com/embed/hL6R3HmQfPc"
+    },
+    {
+      "title": "Hereditary",
+      "title_ar": "وراثي",
+      "author": "Ari Aster",
+      "author_ar": "آري أستر",
+      "date": "June 8, 2018",
+      "date_ar": "8 يونيو 2018",
+      "description": "A grieving family is haunted by tragic and disturbing occurrences.",
+      "description_ar": "عائلة حزينة تطاردها أحداث مأساوية ومقلقة.",
+      "image": "https://m.media-amazon.com/images/I/41HCsm-ZScL._AC_UF894,1000_QL80_.jpg",
+      "trailer": "https://www.youtube.com/embed/V6wWKNij_1M"
+    },
+    {
+      "title": "It Chapter Two",
+      "title_ar": "إت الفصل الثاني",
+      "author": "Andy Muschietti",
+      "author_ar": "أندي موسكيتي",
+      "date": "September 6, 2019",
+      "date_ar": "6 سبتمبر 2019",
+      "description": "The Losers Club reunites to confront the evil clown Pennywise once and for all.",
+      "description_ar": "يتجمع نادي الخاسرين مرة أخرى لمواجهة الشرير المهرج بينيوايز مرة واحدة وإلى الأبد.",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTJlNjlkZTktNjEwOS00NzI5LTlkNDAtZmEwZDFmYmM2MjU2XkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg",
+      "trailer": "https://www.youtube.com/embed/zqUopiAYdRg"
+    },
+    {
+      "title": "Us",
+      "title_ar": "نحن",
+      "author": "Jordan Peele",
+      "author_ar": "جوردان بيل",
+      "date": "March 22, 2019",
+      "date_ar": "22 مارس 2019",
+      "description": "A family's serene beach vacation turns to chaos when their doppelgängers appear and begin to terrorize them.",
+      "description_ar": "تتحول عطلة عائلة هادئة على الشاطئ إلى فوضى عندما يظهر أشباههم ويبدأون بترويعهم.",
+      "image": "https://m.media-amazon.com/images/I/61FWNPBWtmL._AC_UF894,1000_QL80_.jpg",
+      "trailer": "https://www.youtube.com/embed/hNCmb-4oXJA"
+    }
+  ],
+  "drama": [
+    {
+      "title": "The Father",
+      "title_ar": "الأب",
+      "author": "Florian Zeller",
+      "author_ar": "فلوريان زيلر",
+      "date": "February 26, 2021",
+      "date_ar": "26 فبراير 2021",
+      "description": "A man refuses all assistance from his daughter as he ages. As he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind, and even the fabric of his reality.",
+      "description_ar": "يرفض رجل كل المساعدة من ابنته مع تقدمه في السن. بينما يحاول فهم ظروفه المتغيرة، يبدأ بالشك في أحبائه، وعقله الخاص، وحتى نسيج واقعه.",
+      "image": "https://m.media-amazon.com/images/M/MV5BZWQ3MjBjN2MtMjIxYS00MjBlLWFmYTktN2RlZmVkMWUzYTYwXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg",
+      "trailer": "https://www.youtube.com/embed/GvcW2ArYpwY"
+    },
+    {
+      "title": "Nomadland",
+      "title_ar": "أرض الرحل",
+      "author": "Chloé Zhao",
+      "author_ar": "كلوي تشاو",
+      "date": "February 19, 2021",
+      "date_ar": "19 فبراير 2021",
+      "description": "After losing everything in the Great Recession, a woman embarks on a journey through the American West, living as a van-dwelling modern-day nomad.",
+      "description_ar": "بعد فقدان كل شيء في الركود الكبير، تشرع امرأة في رحلة عبر الغرب الأمريكي، تعيش كرحالة حديثة في عربة.",
+      "image": "https://i.ebayimg.com/images/g/W60AAOSwEudgiJF0/s-l1600.jpg",
+      "trailer": "https://www.youtube.com/embed/ggGbsPmqaUw"
+    },
+    {
+      "title": "Minari",
+      "title_ar": "ميناري",
+      "author": "Lee Isaac Chung",
+      "author_ar": "لي إسحاق تشونغ",
+      "date": "February 12, 2021",
+      "date_ar": "12 فبراير 2021",
+      "description": "A Korean-American family moves to an Arkansas farm in search of their own American Dream. Amidst the challenges, they discover the undeniable resilience of family and what really makes a home.",
+      "description_ar": "تنتقل عائلة كورية-أمريكية إلى مزرعة في أركنساس بحثًا عن حلمهم الأمريكي. وسط التحديات، يكتشفون صمود العائلة اللا يمكن إنكاره وما الذي يصنع حقًا منزلًا.",
+      "image": "https://i.ebayimg.com/images/g/~poAAOSwK21gUpH9/s-l1600.jpg",
+      "trailer": "https://www.youtube.com/embed/KQ0gFidlro8"
+    },
+    {
+      "title": "The Trial of the Chicago 7",
+      "title_ar": "محاكمة شيكاغو 7",
+      "author": "Aaron Sorkin",
+      "author_ar": "آرون سوركين",
+      "date": "September 25, 2020",
+      "date_ar": "25 سبتمبر 2020",
+      "description": "The story of 7 people on trial stemming from various charges surrounding the uprising at the 1968 Democratic National Convention in Chicago, Illinois.",
+      "description_ar": "قصة 7 أشخاص في محاكمة نتيجة لعدة اتهامات تحيط بالانتفاضة في المؤتمر الوطني الديمقراطي لعام 1968 في شيكاغو، إلينوي.",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjYzOGE1MjUtODgyMy00ZDAxLTljYTgtNzk0Njg2YWQwMTZhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+      "trailer": "https://www.youtube.com/embed/FVb6EdKDBfU"
+    },
+    {
+      "title": "Sound of Metal",
+      "title_ar": "صوت المعدن",
+      "author": "Darius Marder",
+      "author_ar": "داريوس ماردر",
+      "date": "November 20, 2020",
+      "date_ar": "20 نوفمبر 2020",
+      "description": "A heavy-metal drummer's life is thrown into freefall when he begins to lose his hearing.",
+      "description_ar": "يتحول حياة طبال الهيفي ميتال إلى سقوط حر عندما يبدأ بفقدان سمعه.",
+      "image": "https://cdn.myportfolio.com/f667f7bce06591b7bd1170f815f7ec6c/731265de-af65-47d7-a9a7-5913572d7958_rw_1920.jpg?h=ca505963f4667609fd3f9a354f2bf832",
+      "trailer": "https://www.youtube.com/embed/VFOrGkAvjAE"
+    },
+    {
+      "title": "One Night in Miami",
+      "title_ar": "ليلة واحدة في ميامي",
+      "author": "Regina King",
+      "author_ar": "ريجينا كينغ",
+      "date": "December 25, 2020",
+      "date_ar": "25 ديسمبر 2020",
+      "description": "A fictional account of one incredible night where icons Muhammad Ali, Malcolm X, Sam Cooke, and Jim Brown gathered discussing their roles in the civil rights movement and cultural upheaval of the 60s.",
+      "description_ar": "رواية خيالية لليلة مذهلة التقى فيها الرموز محمد علي، مالكولم إكس، سام كوك، وجيم براون يناقشون أدوارهم في حركة الحقوق المدنية والاضطرابات الثقافية في الستينات.",
+      "image": "https://m.media-amazon.com/images/M/MV5BYmJlYWQ0NWMtMzU5Ni00MDNhLTk2YmUtYWYzZTJhMDMxMzE0XkEyXkFqcGdeQXVyODE0OTU5Nzg@._V1_FMjpg_UX1000_.jpg",
+      "trailer": "https://www.youtube.com/embed/K8vf_Cmh9nY"
+    }
+  ]
+}

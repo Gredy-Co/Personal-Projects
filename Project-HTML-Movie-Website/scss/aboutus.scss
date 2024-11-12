@@ -1,0 +1,617 @@
+// Importación de variables de colores y mixins de media queries
+@import 'colors';
+@import 'mixins/media-queries'; 
+
+
+@import 'header.scss';
+@import 'posts.scss';
+@import 'hero';
+@import 'movies';
+@import 'colors';
+@import 'movie_card';
+@import 'footer.scss';
+
+*{
+  
+	padding: 0;
+	margin: 0;
+}
+
+
+.dark {
+  // Para los elementos específicos que tienen color ligado a variables como $fourth-color o $secondary-color, cambia el color a negro:
+  .section-about__title,
+  .section-about__description,
+  .section-about__button,
+  .section-why__title,
+  .section-why__subtitle,
+  .section-why__description,
+  .section-stats__title,
+  .section-stats__description,
+  .section-stats__item-title,
+  .section-stats__item-description,
+  .section-stats__item-value,
+  .paragraph {
+    color: rgb(255, 255, 255);
+  }
+
+    // Aplica un filtro para invertir el color de los iconos
+    .section-why__image--mission,
+    .section-why__image--vision {
+    filter: invert(1); // Esto invertirá los colores, haciendo que los iconos negros se vean blancos.
+  }
+
+}
+
+
+body {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background-color:white;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+// Sección 'sobre nosotros'
+.section-about {
+    width: 100%;
+
+    // Estilos para tamaños medianos
+    @include md {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // Contenedor de la imagen
+    &__image-container {
+        width: 100%;
+        text-align: center;
+        bottom: 10px;
+
+        // Estilos para tamaños medianos
+        @include md {
+            width: 50%;
+        }
+    }
+
+    // Imagen
+    &__image {
+        width: 200px;
+        height: 190px;
+        border-radius: 100%;
+        margin-top: 30px;
+        margin-bottom: 5px;
+
+        // Estilos para tamaños medianos
+        @include md {
+            width: 240px;
+            height: 230px;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            width: 280px;
+            height: 270px;
+        }
+    }
+
+    // Contenedor de texto
+    &__text-container {
+        width: 100%;
+        text-align: center;
+
+        // Estilos para tamaños medianos
+        @include md {
+            width: 50%;
+        }
+    }
+
+    // Título de la sección
+    &__title {
+        margin-top: 40px;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        color: $fourth-color;
+
+        // Estilos para tamaños medianos
+        @include md {
+            font-size: 2.25rem;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            font-size: 2.5rem;
+        }
+    }
+
+    // Separador
+    &__divider {
+        width: 100px;
+        height: 3px;
+        margin: auto;
+        border-style: none;
+        background: -webkit-linear-gradient(left, red, blue, #82B2EE);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+
+        // Estilos para tamaños medianos
+        @include md {
+            width: 150px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            width: 200px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    }
+
+    // Descripción
+    &__description {
+        margin-top: 40px;
+        color: $fourth-color;
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 1rem;
+
+        // Estilos para tamaños medianos
+        @include md {
+            margin-top: 30px;
+            font-size: 1.125rem;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            margin-top: 20px;
+            font-size: 1.25rem;
+        }
+    }
+
+    // Botón
+    &__button {
+        width: 200px;
+        color: $fourth-color;
+        padding: 16px;
+        border: 1px solid $fourth-color;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        text-align: center;
+
+        // Estilos para tamaños medianos
+        @include md {
+            width: 250px;
+            padding: 20px;
+            font-size: 1.25rem;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            width: 300px;
+            padding: 24px;
+            font-size: 1.25rem;
+        }
+    }
+}
+
+
+// Sección 'por qué nosotros'
+.section-why {
+    width: 100%;
+    text-align: center;
+
+    // Estilos para tamaños medianos
+    @include md {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    // Título de la sección
+    &__title {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: $fourth-color;
+        text-align: center; 
+        width: 100%;
+
+        // Estilos para tamaños medianos
+        @include md {
+            font-size: 2.25rem;
+            text-align: center; 
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            font-size: 2.5rem;
+            text-align: center; 
+        }
+    }
+
+    // Separador
+    &__divider {
+        width: 100px;
+        height: 3px;
+        margin: auto;
+        border-style: none;
+        background: -webkit-linear-gradient(left, red, blue, #82B2EE);
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+
+        // Estilos para tamaños medianos
+        @include md {
+            text-align: center;
+            width: 150px;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            text-align: center;
+            width: 200px;
+        }
+    }
+
+    // Detalles de la sección
+    &__details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+
+        // Estilos para tamaños medianos
+        @include md {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            justify-content: space-evenly;
+        }
+    }
+
+    // Elementos de la sección
+    &__item {
+        width: 80%;
+        max-width: 400px;
+        margin: 20px;
+        margin: 20px;
+        text-align: center;
+
+        // Estilos para tamaños medianos
+        @include md {
+            width: 45%;
+            margin: 10px;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            width: 30%;
+            margin: 15px;
+        }
+    }
+
+    // Icono dentro de los elementos
+    &__icon {
+        width: 200px;
+        height: 200px;
+        border: 1px solid $secondary-color;
+        border-radius: 50%;
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+        align-items: center; /* Alinea verticalmente el contenido */
+        justify-content: center; /* Alinea horizontalmente el contenido */
+
+        // Estilos para tamaños medianos
+        @include md {
+            width: 240px;
+            height: 240px;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            width: 280px;
+            height: 280px;
+        }
+    }
+
+    // Enlace de imagen
+    &__image-link {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    // Contenedor de imagen
+    &__image-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none; 
+    }
+
+    // Imagen de la misión
+    &__image--mission {
+        width: 70%;
+        height: 70%;
+        pointer-events: none; 
+        margin: auto; 
+        display: block; 
+    }
+
+    // Imagen de la visión
+    &__image--vision {
+        width: 90%;
+        height: 90%;
+        pointer-events: none; 
+        margin: auto; 
+        display: block; 
+    }
+
+    // Subtítulo de la sección
+    &__subtitle {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-top: 10px;
+        color: $fourth-color;
+        text-align: center;
+
+        // Estilos para tamaños medianos
+        @include md {
+            font-size: 1.625rem;
+            margin-top: 60px;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            font-size: 2rem;
+            margin-top: 60px;
+        }
+    }
+
+    // Descripción de la sección
+    &__description {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        color: $fourth-color;
+        text-align: center;
+        margin-top: 10px;
+
+        // Estilos para tamaños medianos
+        @include md {
+            font-size: 1.125rem;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+
+
+// Sección de estadísticas
+.section-stats {
+    width: 100%;
+    text-align: center;
+    padding: 20px; 
+
+    // Estilos para tamaños medianos
+    @include md {
+        padding: 40px;
+    }
+
+    // Estilos para tamaños grandes
+    @include lg {
+        padding: 60px;
+    }
+
+    // Título de la sección
+    &__title {
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 20px;
+        color: $fourth-color;
+
+        // Estilos para tamaños medianos
+        @include md {
+            font-size: 2.25rem;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            font-size: 2.5rem;
+        }
+    }
+
+    // Separador
+    &__divider {
+        width: 100px;
+        height: 3px;
+        margin: auto;
+        border-style: none;
+        background: -webkit-linear-gradient(left, red, blue, #82B2EE);
+        margin-top: 20px;
+
+        // Estilos para tamaños medianos
+        @include md {
+            width: 150px;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            width: 200px;
+        }
+    }
+
+    // Descripción de la sección
+    &__description {
+        margin-top: 40px;
+        color: $fourth-color;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        text-align: center;
+
+        // Estilos para tamaños medianos
+        @include md {
+            margin-top: 30px;
+            font-size: 1.125rem;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            margin-top: 20px;
+            font-size: 1.25rem;
+        }
+    }
+
+    // Elementos de la sección
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 40px;
+
+        // Estilos para tamaños medianos
+        @include md {
+            margin-top: 30px;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            margin-top: 20px;
+        }
+    }
+
+    // Item individual
+    &__item {
+        width: 350px;
+        margin: 20px; 
+        padding: 40px;
+        background: $primary-color;
+        border-radius: 10px; 
+        text-align: center;
+        color: $secondary-color;
+
+        // Estilos para tamaños medianos
+        @include md {
+            width: 300px;
+            margin: 15px;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            width: 250px;
+            margin: 10px;
+        }
+
+        // Modificadores de estilo para diferentes tipos de items
+        &--highlighted {
+            background: $primary-color;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        &--secondary {
+            background: $primary-color;
+        }
+
+        &--last {
+            background: $primary-color;
+            border-radius: 0px 0px 10px 10px;
+        }
+    }
+
+    // Valor del item
+    &__item-value {
+        font-size: 5rem;
+        color: $secondary-color;
+
+        // Estilos para tamaños medianos
+        @include md {
+            font-size: 4.375rem;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            font-size: 3.75rem;
+        }
+    }
+
+    // Título del item
+    &__item-title {
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 1.5rem;
+        text-align: center;
+
+        // Estilos para tamaños medianos
+        @include md {
+            font-size: 1.625rem;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            font-size: 2rem;
+        }
+    }
+
+    // Descripción del item
+    &__item-description {
+        color: $secondary-color;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1rem;
+
+        // Estilos para tamaños medianos
+        @include md {
+            font-size: 1.125rem;
+        }
+
+        // Estilos para tamaños grandes
+        @include lg {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+// Párrafo genérico
+.paragraph {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+    color: $fourth-color;
+
+    // Estilos para tamaños medianos
+    @include md {
+        font-size: 1.125rem;
+    }
+
+    // Estilos para tamaños grandes
+    @include lg {
+        font-size: 1.25rem;
+    }
+}

@@ -1,0 +1,55 @@
+
+body{
+
+    &.dark{
+        background: black;
+        transition: .3s ease all;
+    }
+}
+// ----- ----- ----- ----- ----- Switch ----- ----- ----- ----- ----- 
+.switch{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    &::after{
+        content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        background: #F1F1F1;
+        top: 0;
+        left: 0;
+        right: unset;
+        border-radius: 100px;
+        transition: .3s ease all;
+        box-shadow:0px 0px 2px 2px rgba(0,0,0,.2) ;
+    }
+    &.active{
+
+        background: orangered;
+        color: #111111;
+        &::after{
+            right: 0;
+            left: unset;
+        }
+    }
+    span{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: block;
+        background: none;
+        color: #fff;
+    }
+}
+
+// ----- ----- ----- ----- ----- GRID ----- ----- ----- ----- ----- 

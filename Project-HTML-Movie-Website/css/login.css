@@ -1,0 +1,73 @@
+body {
+  background-color: #d32f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif; }
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; }
+  .login__form {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto; }
+    @media screen and (min-width: 768px) {
+      .login__form {
+        max-width: 500px;
+        height: 80vh; } }
+    @media screen and (min-width: 1024px) {
+      .login__form {
+        max-width: 600px;
+        height: 70vh; } }
+  .login__title {
+    margin-bottom: 3rem;
+    color: #fff;
+    font-size: 2rem; }
+  .login__field {
+    width: 100%;
+    margin-bottom: 3rem;
+    color: #fffcfc; }
+  .login__label {
+    display: block;
+    margin-bottom: 1rem;
+    color: #fff; }
+  .login__input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff; }
+  .login__button {
+    margin-bottom: 1rem;
+    width: 103%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 10px;
+    background: #d32f2f;
+    color: #000;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s; }
+  .login__button:hover {
+    background: rgba(255, 255, 255, 0.795); }
+  .login__message {
+    margin-top: 1rem;
+    color: #faf0f0; }
+  .login__message a {
+    color: #fff;
+    text-decoration: underline; }

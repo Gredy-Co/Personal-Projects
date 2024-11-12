@@ -1,0 +1,488 @@
+/*=============== IMPORTS ===============*/
+@import 'colors';
+@import "mixins/media-queries";
+
+
+/*=============== HEADER ===============*/
+.container{
+
+    margin-inline: 1rem;
+ }
+ 
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $primary-color;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+    z-index: 100;
+    padding: 20px;
+
+
+}
+ // Estilos para el botón de usuario
+ .navigation__user {
+    position: relative; 
+    height: 10px;
+    display: flex;
+    align-items: center;
+    background-color: $primary-color; // Color de fondo del botón
+    padding: 1px;
+    margin-right:auto; 
+    top: -65px;
+    margin-left: auto;
+        transform: translateX(280px); 
+
+    .user-button {
+        display: flex;
+        align-items: center;
+        background: transparent; // Fondo transparente para que tome el color del contenedor
+        border: none;
+        cursor: pointer;
+        padding: 1px;
+
+        .user-button__avatar {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .user-button__name {
+            margin-left: 1px;
+            color: #0a0303; // Color del texto del botón
+            font-size:small;
+        }
+    }
+}
+
+// Estilos específicos para pantallas medianas (tablets)
+@include md {
+    .navigation__user {
+        top: 50px;
+        padding: 10px; // Ajusta el padding si es necesario
+        margin-left: auto;
+        transform: translateX(10px);
+        .user-button {
+            .user-button__avatar {
+                width: 40px;
+                height: 40px;
+               
+            }
+            .user-button__name {
+                font-size: 1.2rem; // Ajusta el tamaño de la fuente si es necesario
+            }
+
+        }
+    }
+}
+
+// Estilos específicos para pantallas grandes (desktops)
+@include lg {
+    .navigation__user {
+        top: 30px;
+        padding: 10px; // Ajusta el padding si es necesario
+        margin-left: auto;
+        transform: translateX(-10px);
+
+        .user-button {
+            .user-button__name {
+                font-size: 1.5rem; // Ajusta el tamaño de la fuente si es necesario
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Añadir al archivo main.css */
+.nav__search-input {
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav__search-input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/*=============== NAV ===============*/
+.nav {
+    height: 3.5rem;
+
+    &__logo,
+    &__burger,
+    &__close {
+        color: $secondary-color;
+    }
+
+    &__data {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        display: inline-flex;
+        align-items: center;
+        column-gap: .25rem;
+
+
+        & i {
+            font-weight: initial;
+            font-size: 1.25rem;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+
+            @include lg {
+                top: 12px;
+                width: 80px;
+                height: 80px;
+                bottom: 12px;
+
+            }
+        }
+    }
+
+    &__toggle {
+        position: relative;
+        width: 32px;
+        height: 32px;
+    }
+
+    &__burger,
+    &__close {
+        position: absolute;
+        width: max-content;
+        height: max-content;
+        inset: 0;
+        margin: auto;
+        font-size: 1.25rem;
+        cursor: pointer;
+        transition: opacity .1s, transform .4s;
+    }
+
+    &__close {
+        opacity: 0;
+    }
+   
+    .navigation__switch {
+        background: #343D5B;
+        border-radius: 50px; // Forma ovalada
+        border: none;
+        position: relative;
+        cursor: pointer;
+        display: flex;
+        outline: none;
+        margin-left: 20px;
+        width: 60px;
+        height: 30px;
+        top: -50px;
+        margin-left: auto;
+        transform: translateX(-50px);  // Ajusta esta propiedad para mover todo el interruptor hacia abajo
+        align-items: center; // Centra los íconos verticalmente
+      
+        @include lg {
+        top: 25px;
+        margin-left: auto;
+        transform: translateX(-40px);   }
+        &::after {
+            content: "";
+            display: block;
+            width: 26px;
+            height: 26px;
+            position: absolute;
+            background: #F1F1F1;
+            top: 2px; // Ajusta esta propiedad para bajar la cápsula dentro del interruptor
+            left: 2px;
+            border-radius: 50%;
+            transition: .3s ease all;
+            box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
+        }
+    
+        &.active {
+            background: orange;
+            color: #111111;
+    
+            &::after {
+                left: unset;
+                right: 2px;
+            }
+        }
+    
+        span {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            display: block;
+            background: none;
+            color: #fff;
+            text-align: center; // Centra el contenido del span
+            margin-right: 20px; // Ajusta el espacio entre los íconos dentro del interruptor
+
+            i {
+                font-size: 15px; // Ajusta el tamaño del ícono aquí
+            }
+        }
+    }
+    
+    
+
+
+
+
+    // Navigation for mobile devices
+    @media screen and (max-width: 1118px) {
+        &__menu {
+            position: absolute;
+            left: 0;
+            top: 2.5rem;
+            width: 100%;
+            height: calc(100vh - 3.5rem);
+            overflow: auto;
+            pointer-events: none;
+            opacity: 0;
+            transition: top .4s, opacity .3s;
+
+            &::-webkit-scrollbar {
+                width: 0;
+            }
+        }
+
+        &__list {
+            background-color: $primary-color;
+            padding-top: 1rem;
+        }
+    }
+
+    &__link {
+        color: $secondary-color;
+        background-color: $primary-color;
+        padding: 1.25rem 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: background-color .3s;
+
+        &:hover {
+            background-color: $primary-color;
+        }
+    }
+}
+
+/* Show menu */
+.show-menu {
+    opacity: 1;
+    top: 3.5rem;
+    pointer-events: initial;
+}
+
+/* Show icon */
+.show-icon .nav__burger {
+    opacity: 0;
+    transform: rotate(90deg);
+}
+
+.show-icon .nav__close {
+    opacity: 1;
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+/*=============== DROPDOWN ===============*/
+.dropdown {
+    &__item {
+        cursor: pointer;
+    }
+
+    &__arrow {
+        font-size: 1.25rem;
+        font-weight: initial;
+        transition: transform .4s;
+    }
+
+    &__link,
+    &__sublink {
+        padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+        color: $primary-color;
+        background-color: $secondary-color;
+        display: flex;
+        align-items: center;
+        column-gap: .5rem;
+        transition: background-color .3s;
+
+        & i {
+            font-size: 1.25rem;
+            font-weight: initial;
+        }
+
+        &:hover {
+            color: $secondary-color;
+            background-color: $third-color;
+        }
+    }
+
+    &__menu,
+    &__submenu {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .4s ease-out;
+    }
+
+    // Show dropdown menu & submenu
+    &__item:hover &__menu,
+    &__subitem:hover>&__submenu {
+        max-height: 1000px;
+        transition: max-height .4s ease-in;
+    }
+
+    // Rotate dropdown icon
+    &__item:hover &__arrow {
+        transform: rotate(180deg);
+    }
+}
+
+/*=============== DROPDOWN SUBMENU ===============*/
+.dropdown {
+    &__add {
+        margin-left: auto;
+    }
+
+    &__sublink {
+        background-color: $secondary-color;
+    }
+}
+
+@include md{
+    .container{
+       margin-inline: 1rem;
+    }
+ 
+    .nav__link{
+       padding-inline: 1rem;
+    }
+ }
+ 
+
+@include xl {
+    .container {
+        margin-inline: auto;
+    }
+
+    .nav__logo-text{
+        font-size: 25px;
+    }
+
+    .nav {
+        height: calc(var(--header-height) + 2rem);
+        display: flex;
+        justify-content: space-between;
+
+        &__toggle {
+            display: none;
+        }
+
+        &__list {
+            height: 100%;
+            display: flex;
+            column-gap: 3rem;
+        }
+
+        &__link {
+            height: 100%;
+            padding: 0;
+            justify-content: initial;
+            column-gap: .25rem;
+            margin-right: 45px;
+            font-size: 20px;
+
+            &:hover {
+                background-color: transparent;
+            }
+        }
+
+        &__logo-text {
+            text-align: center;
+            top: 25px;
+            
+        }
+    }
+
+    .dropdown {
+
+        &__item,
+        &__subitem {
+            position: relative;
+        }
+
+        &__menu,
+        &__submenu {
+            max-height: initial;
+            overflow: initial;
+            position: absolute;
+            left: 0;
+            top: 1rem;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity .3s, top .3s;
+        }
+
+        &__link,
+        &__sublink {
+            padding-inline: 1rem 3.5rem;
+            font-size: 25px;
+        }
+
+        &__subitem &__link {
+            padding-inline: 1rem;
+        }
+
+        &__submenu {
+            position: absolute;
+            left: 100%;
+            top: 0;
+        }
+
+        // Show dropdown menu
+        &__item:hover &__menu {
+            opacity: 1;
+            top: 5.5rem;
+            pointer-events: initial;
+            
+        }
+
+        // Show dropdown submenu
+        &__subitem:hover>&__submenu {
+            opacity: 1;
+            top: 0;
+            pointer-events: initial;
+            
+        }
+    }
+
+    
+}

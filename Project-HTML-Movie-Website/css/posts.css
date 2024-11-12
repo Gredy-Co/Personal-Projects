@@ -1,0 +1,252 @@
+button {
+  background: rgb(211, 47, 47);
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.new-release--top {
+  margin-top: 3%;
+}
+.new-release__container {
+  max-width: 95%;
+  margin: auto;
+}
+.new-release ul {
+  list-style: none;
+}
+.new-release__time--flex {
+  display: flex;
+}
+.new-release__time--flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+.new-release i {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.new-release__heading h1 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .new-release__heading h1 {
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    line-height: 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .new-release__heading h1 {
+    font-size: 80px;
+    letter-spacing: 2px;
+    line-height: 90px;
+  }
+}
+.new-release__heading h2 span {
+  border-left: 3px solid rgb(211, 47, 47);
+  margin-right: 10px;
+  font-weight: bold;
+}
+.new-release__time {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .new-release__time {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+  }
+}
+.new-release__time label {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 30px;
+}
+@media screen and (min-width: 768px) {
+  .new-release__time label {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .new-release__time label {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+.new-release__time i {
+  font-size: 5px;
+  line-height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .new-release__time i {
+    line-height: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .new-release__time i {
+    font-size: 5px;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.new-release__time h3 {
+  font-size: 30px;
+}
+.new-release__time img {
+  width: 40px !important;
+  height: 40px;
+  margin-top: -10px;
+  margin-right: 5px;
+}
+@media screen and (min-width: 768px) {
+  .new-release__time img {
+    width: 50px !important;
+    height: 50px;
+    margin-right: 10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .new-release__time img {
+    width: 60px !important;
+    height: 60px;
+    margin-top: -10px;
+    margin-right: 10px;
+  }
+}
+.new-release__button {
+  margin-top: 20px;
+}
+.new-release__button--flex {
+  display: flex;
+}
+@media screen and (min-width: 1024px) {
+  .new-release__button {
+    margin-top: 30px;
+  }
+}
+.new-release__btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .new-release__btn {
+    padding: 15px 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .new-release__btn {
+    padding: 20px 40px;
+    margin-right: 20px;
+  }
+}
+.new-release p {
+  font-size: 14px;
+  line-height: 20px;
+}
+@media screen and (min-width: 768px) {
+  .new-release p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .new-release p {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+.new-release__item {
+  border-left: 3px solid rgb(211, 47, 47);
+  padding: 20px;
+  height: 65vh;
+  width: 100%;
+  background: linear-gradient(to right, rgb(34, 31, 31) 0%, rgba(34, 31, 31, 0.4) 100%);
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .new-release__item {
+    padding: 30px;
+    height: 75vh;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .new-release__item {
+    padding: 40px;
+    height: 85vh;
+  }
+}
+.new-release__item .new-release__content {
+  position: relative;
+  color: white;
+}
+.new-release__item .new-release__image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.new-release__item--spiderman .new-release__image {
+  background-image: url("https://m.media-amazon.com/images/I/815zgARVaRL._AC_SL1500_.jpg");
+}
+@media screen and (min-width: 1024px) {
+  .new-release__item--spiderman .new-release__image {
+    background-image: url("https://images.thedirect.com/media/article_full/Spider-Man-NoWayHomePoster.jpg");
+  }
+}
+.new-release__item--avatar .new-release__image {
+  background-image: url("https://m.media-amazon.com/images/I/81i4rPiuBML.jpg");
+}
+@media screen and (min-width: 1024px) {
+  .new-release__item--avatar .new-release__image {
+    background-image: url("https://flixchatter.net/wp-content/uploads/2022/12/avatar-wayofwater-poster.jpg");
+  }
+}
+.new-release__item--thor .new-release__image {
+  background-image: url("https://m.media-amazon.com/images/I/81rD-SwXaoL._AC_UF894,1000_QL80_.jpg");
+}
+@media screen and (min-width: 1024px) {
+  .new-release__item--thor .new-release__image {
+    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/06/THOR-LOVE-AND-THUNDER-SET-PHOTO.jpg");
+  }
+}
+.new-release__item--bubble .new-release__image {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQKb-ZQI2Py93EEwksNjGfhQqBabOuZI1BjA&s");
+}
+@media screen and (min-width: 1024px) {
+  .new-release__item--bubble .new-release__image {
+    background-image: url("https://awardsradar.com/wp-content/uploads/2022/03/The-Bubble.jpeg");
+  }
+}
+.new-release__item--lost-city .new-release__image {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BMmIwYzFhODAtY2I1YS00ZDdmLTkyYWQtZjI5NDIwMDc2MjEyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg");
+}
+@media screen and (min-width: 1024px) {
+  .new-release__item--lost-city .new-release__image {
+    background-image: url("https://flixchatter.net/wp-content/uploads/2022/03/lost-city-movie-poster.jpg");
+  }
+}
+
+/*# sourceMappingURL=posts.css.map */

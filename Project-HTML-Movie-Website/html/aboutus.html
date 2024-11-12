@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-key="title">CinemaX</title>
+
+    <!-- Enlaces a hojas de estilo locales -->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <script src="https://kit.fontawesome.com/12d578a4cd.js" crossorigin="anonymous"></script>    
+
+    <!-- Enlace a la hoja de estilo de reximicon para los íconos -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!-- Enlaces a hojas de estilo externas de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Encabezado con la barra de navegación -->
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <div class="nav__logo">
+                    <img src="https://t3.ftcdn.net/jpg/05/45/24/86/240_F_545248609_qbkuQGuDkHqgDCunGvNBlR2phjS2uv9T.jpg"
+                        alt="Brand Logo" class="nav__logo-img">
+                    <span class="nav__logo-text" data-key="brand-logo">CinemaX</span>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+            <div class="navigation__user">
+                <button id="userButton" class="user-button">
+                    <img src="../images/user.png" alt="User Avatar" class="user-button__avatar">
+                    <span id="userName" class="user-button__name">User</span>
+                </button>
+            </div>
+            <button class="switch navigation__switch" id="switch">
+                <span><i class="fa-solid fa-sun"></i></span>
+                <span><i class="fa-solid fa-moon"></i></span>
+            </button>
+            <script src="../javascript/loginout.js"></script>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+
+                
+
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link" data-key="home">Home</a></li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            <span data-key="movies-categories">Movies Categories</span> <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-movie-2-line"></i> <span data-key="action">Action</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-emotion-laugh-line"></i> <span data-key="comedy">Comedy</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-ghost-line"></i> <span data-key="horror">Horror</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-emotion-sad-line"></i> <span data-key="drama">Drama</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li><a href="aboutus.html" class="nav__link" data-key="about-us">About us</a></li>
+
+                        <!-- Botones de traducción -->
+                        <button class="translate-btn" data-lang="en">EN</button>
+                        <button class="translate-btn" data-lang="ar">AR</button>
+                        
+                       
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de héroe con imagen de fondo -->
+        <div class="hero" style="background-image: url('../images/cine-ha-muerto.jpg');">
+            <h1 class="hero__title" data-key="hero-title">About Us</h1>
+            <p class="hero__descrip" data-key="hero-description">Explore the endless universe of cinema, where every movie is a new adventure.</p>
+        </div>
+
+        <!-- Sección sobre nosotros -->
+        <div class="section-about">
+            <div class="section-about__image-container">
+                <img src="https://uvn-brightspot.s3.amazonaws.com/assets/vixes/btg/curiosidades.batanga.com/files/Como-hacer-gafas-3D-1.jpg" alt="Gafas 3D" class="section-about__image">
+            </div>
+            <div class="section-about__text-container">
+                <h1 class="section-about__title" data-key="about-us-title">About Us</h1>
+                <hr class="section-about__divider">
+                <p class="section-about__description" data-key="about-us-description">
+                    "Welcome to CinemaX. Since our opening in 1995, we've been the favorite destination for movie lovers in Ciudad Quesada. 
+                    Our passion for the big screen is reflected in every detail: from our comfortable seats to the carefully curated selection of films. 
+                    Join us for exciting adventures, contagious laughter, and unforgettable moments. We'll see you in the theater!"
+                </p>
+                <div class="section-about__button" data-key="learn-more">Learn More</div>
+            </div>
+        </div>
+    
+        <!-- Sección de por qué elegirnos -->
+        <div class="section-why">
+            <h1 class="section-why__title" data-key="why-us-title">Why Us?</h1>
+            <hr class="section-why__divider">
+            <div class="section-why__details">
+                <div class="section-why__item">
+                    <div class="section-why__icon">
+                        <a href="link_to_mission_page.html" class="section-why__image-link">
+                            <div class="section-why__image-container">
+                                <img src="https://cdn-icons-png.flaticon.com/512/1628/1628579.png" alt="Mission Icon" class="section-why__image section-why__image--mission">
+                            </div>
+                        </a>
+                    </div>
+                    <h4 class="section-why__subtitle" data-key="mission-title">Mission</h4>
+                    <p class="section-why__description" data-key="mission-description">To deliver an exceptional cinematic experience by 
+                        combining cutting-edge technology with unparalleled customer service.</p>
+                </div>
+        
+                <div class="section-why__item">
+                    <div class="section-why__icon">
+                        <a href="link_to_vision_page.html" class="section-why__image-link">
+                            <div class="section-why__image-container">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3442/3442687.png" alt="Vision Icon" class="section-why__image section-why__image--vision">
+                            </div>
+                        </a>
+                    </div>
+                    <h4 class="section-why__subtitle" data-key="vision-title">Vision</h4>
+                    <p class="section-why__description" data-key="vision-description">To become the region's go-to cinema, known for our innovation and commitment to the community.</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Sección de nuestros valores -->
+        <div class="section-stats">
+            <h1 class="section-stats__title" data-key="our-values-title">Our Values</h1>
+            <hr class="section-stats__divider">
+            <p class="section-stats__description" data-key="our-values-description">This our Values</p>
+            <div class="section-stats__items">
+                <div class="section-stats__item">
+                    <h4 class="section-stats__item-title" data-key="quality-title">Quality</h4>
+                    <p class="section-stats__item-description" data-key="quality-description">We offer only the best in sound, picture, and comfort</p>
+                </div>
+                <div class="section-stats__item">
+                    <h4 class="section-stats__item-title" data-key="innovation-title">Innovation</h4>
+                    <p class="section-stats__item-description" data-key="innovation-description">We stay at the forefront of technology to continually enhance our costumers experience</p>
+                </div>
+                <div class="section-stats__item">
+                    <h4 class="section-stats__item-title" data-key="community-title">Community</h4>
+                    <p class="section-stats__item-description" data-key="community-description">We are committed to our local community and support various cultural and social initiatives</p>
+                </div>
+            </div>
+            <p class="paragraph" data-key="community-activities">We host film festivals, collaborate with local schools, and participate in numerous 
+                charitable initiatives to support and enrich our community. 
+            </p>
+        </div>
+
+    </main>
+
+        <!-- Footer section -->
+        <footer class="footer">
+            <div class="footer__container footer__container--mtop">
+                <div class="footer__box">
+                    <div class="footer__logo">
+                        <img class="footer__logo-image"
+                            src="https://t3.ftcdn.net/jpg/05/45/24/86/240_F_545248609_qbkuQGuDkHqgDCunGvNBlR2phjS2uv9T.jpg"
+                            alt="CinemaX logo">
+                        <span class="footer__text" data-key="footer-logo">CinemaX</span>
+                    </div>
+                    <p class="footer__description" data-key="footer-description">
+                        Welcome to CinemaX. Since 1995, bringing you thrilling adventures, endless laughter, and unforgettable memories. See you at the movies!
+                    </p>
+                    <div class="footer__icons">
+                        <i class="fab fa-facebook-square" data-key="facebook"></i>
+                        <i class="fab fa-instagram" data-key="instagram"></i>
+                        <i class="fab fa-twitter-square" data-key="twitter"></i>
+                        <i class="fab fa-youtube-square" data-key="youtube"></i>
+                    </div>
+                </div>
+
+                <div class="footer__box">
+                    <h2 class="footer__heading" data-key="explore">Explore</h2>
+                    <div class="footer__flex">
+                        <ul class="footer__list">
+                            <li class="footer__list-item" data-key="home">Home</li>
+                            <li class="footer__list-item" data-key="tv-shows">Tv Shows</li>
+                            <li class="footer__list-item" data-key="actors">Actors</li>
+                            <li class="footer__list-item" data-key="celebrity">Celebrity</li>
+                        </ul>
+                        <ul class="footer__list footer__list--second">
+                            <li class="footer__list-item" data-key="movie">Movie</li>
+                            <li class="footer__list-item" data-key="video">Video</li>
+                            <li class="footer__list-item" data-key="basketball">Basketball</li>
+                            <li class="footer__list-item" data-key="coress">Coress</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__box">
+                    <h2 class="footer__heading" data-key="company">Company</h2>
+                    <div class="footer__flex">
+                        <ul class="footer__list">
+                            <li class="footer__list-item" data-key="company">Company</li>
+                            <li class="footer__list-item" data-key="terms-of-use">Terms of Use</li>
+                            <li class="footer__list-item" data-key="contact-us">Contact us</li>
+                            <li class="footer__list-item" data-key="our-team">Our Team</li>
+                        </ul>
+                        <ul class="footer__list footer__list--second">
+                            <li class="footer__list-item" data-key="privacy-policy">Privacy Policy</li>
+                            <li class="footer__list-item" data-key="helps-center">Helps Center</li>
+                            <li class="footer__list-item" data-key="subscribe">Subscribe</li>
+                            <li class="footer__list-item" data-key="faq">FAQ</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__box">
+                    <h2 class="footer__heading" data-key="download-app">Download App</h2>
+                    <p class="footer__description" data-key="download-app-description">
+                        Experience CinemaX on the go! Download our app to check showtimes, book tickets, and watch trailers.
+                    </p>
+                    <div class="footer__apps">
+                        <a href="#" class="footer__app-link" data-key="app-store-link">
+                            <img src="https://img.icons8.com/ios/50/000000/apple-logo.png" alt="App Store">
+                        </a>
+                        <a href="#" class="footer__app-link" data-key="google-play-link">
+                            <img src="https://img.icons8.com/ios/50/000000/google-play.png" alt="Google Play">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="footer__legal">Copyright (c) 2024 Copyright Holder All Rights Reserved</p>
+        </footer>
+
+        <!-- Incluir el archivo JavaScript -->
+        <script src="../javascript/header.js"></script>
+        <script src="../javascript/categories.js"></script>
+        <script src="../javascript/movie-details.js"></script>
+        <script src="../javascript/carousel.js"></script>
+        <script src="../javascript/translator-about-us.js"></script>
+        <script src="../javascript/theme.js"></script>
+</body>
+</html>

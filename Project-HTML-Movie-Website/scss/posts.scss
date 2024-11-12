@@ -1,0 +1,264 @@
+// Importaciones de estilos y mixins
+@import './colors.scss';
+@import "mixins/media-queries";
+
+button {
+    background: $primary-color;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.new-release {
+    &--top {
+        margin-top: 3%;
+    }
+
+    &__container {
+        max-width: 95%;
+        margin: auto;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    &__time--flex {
+        display: flex;
+    }
+
+    &__time--flex1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    i {
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    &__heading {
+        h1 {
+            font-size: 30px;
+            letter-spacing: 1px;
+            line-height: 40px;
+            text-transform: uppercase;
+
+            @include md {
+                font-size: 50px;
+                letter-spacing: 1.5px;
+                line-height: 60px;
+            }
+
+            @include lg {
+                font-size: 80px;
+                letter-spacing: 2px;
+                line-height: 90px;
+            }
+        }
+
+        h2 span {
+            border-left: 3px solid $primary-color;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+    }
+
+    &__time {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 20px;
+
+        @include lg {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            line-height: 40px;
+        }
+
+        label {
+            width: 30px;
+            height: 30px;
+            border: 1px solid white;
+            text-align: center;
+            line-height: 30px;
+
+            @include md {
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+            }
+
+            @include lg {
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+            }
+        }
+
+        i {
+            font-size: 5px;
+            line-height: 30px;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            @include md {
+                line-height: 35px;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+
+            @include lg {
+                font-size: 5px;
+                line-height: 40px;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        img {
+            width: 40px !important;
+            height: 40px;
+            margin-top: -10px;
+            margin-right: 5px;
+
+            @include md {
+                width: 50px !important;
+                height: 50px;
+                margin-right: 10px;
+            }
+
+            @include lg {
+                width: 60px !important;
+                height: 60px;
+                margin-top: -10px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    &__button {
+        margin-top: 20px;
+
+        &--flex {
+            display: flex;
+        }
+
+        @include lg {
+            margin-top: 30px;
+        }
+    }
+
+    &__btn {
+        padding: 10px 20px;
+        margin-right: 10px;
+
+        @include md {
+            padding: 15px 30px;
+        }
+
+        @include lg {
+            padding: 20px 40px;
+            margin-right: 20px;
+        }
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+
+        @include md {
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        @include lg {
+            font-size: 25px;
+            line-height: 35px;
+        }
+    }
+
+    &__item {
+        border-left: 3px solid $primary-color;
+        padding: 20px;
+        height: 65vh;
+        width: 100%;
+        background: linear-gradient(to right, rgba(34, 31, 31, 1) 0%, rgba(34, 31, 31, 0.4) 100%);
+        position: relative;
+
+        @include md {
+            padding: 30px;
+            height: 75vh;
+        }
+
+        @include lg {
+            padding: 40px;
+            height: 85vh;
+        }
+
+        .new-release__content {
+            position: relative;
+            color: white;
+        }
+
+        .new-release__image {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+
+
+        }
+
+        &--spiderman .new-release__image {
+            background-image: url('https://m.media-amazon.com/images/I/815zgARVaRL._AC_SL1500_.jpg');
+
+            @include lg {
+                background-image: url('https://images.thedirect.com/media/article_full/Spider-Man-NoWayHomePoster.jpg');
+            }
+        }
+
+        &--avatar .new-release__image {
+            background-image: url('https://m.media-amazon.com/images/I/81i4rPiuBML.jpg');
+
+            @include lg {
+                background-image: url('https://flixchatter.net/wp-content/uploads/2022/12/avatar-wayofwater-poster.jpg');
+            }
+        }
+
+        &--thor .new-release__image {
+            background-image: url('https://m.media-amazon.com/images/I/81rD-SwXaoL._AC_UF894,1000_QL80_.jpg');
+
+            @include lg {
+                background-image: url('https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/06/THOR-LOVE-AND-THUNDER-SET-PHOTO.jpg');
+            }
+        }
+
+        &--bubble .new-release__image {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQKb-ZQI2Py93EEwksNjGfhQqBabOuZI1BjA&s');
+
+            @include lg {
+                background-image: url('https://awardsradar.com/wp-content/uploads/2022/03/The-Bubble.jpeg');
+            }
+        }
+
+        &--lost-city .new-release__image {
+            background-image: url('https://m.media-amazon.com/images/M/MV5BMmIwYzFhODAtY2I1YS00ZDdmLTkyYWQtZjI5NDIwMDc2MjEyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg');
+
+            @include lg {
+                background-image: url('https://flixchatter.net/wp-content/uploads/2022/03/lost-city-movie-poster.jpg');
+            }
+        }
+    }
+}

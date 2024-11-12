@@ -1,0 +1,22 @@
+@import "../variables/breakpoints.scss"; 
+
+// Mixin para dispositivos medianos (tablets)
+@mixin md {
+    @media screen and (min-width: $br--md) {
+        @content;
+    }
+}
+
+// Mixin para tablets en orientación horizontal y vistas más pequeñas de desktop.
+@mixin lg {
+    @media screen and (min-width: $br--lg) {
+        @content;
+    }
+}
+
+// Mixin para pantallas grandes (desktops)
+@mixin xl {
+    @media screen and (min-width: $br--xl) {
+        @content;
+    }
+}

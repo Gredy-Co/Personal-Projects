@@ -1,0 +1,94 @@
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.movies-grid {
+  background-color: white;
+}
+.movies-grid .genre {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.movies-grid .genre__title {
+  color: rgb(211, 47, 47);
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 1024px) {
+  .movies-grid .genre__title {
+    font-size: 40px;
+  }
+}
+.movies-grid .movies {
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 20px;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .movies-grid .movies {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+}
+@media screen and (min-width: 1024px) {
+  .movies-grid .movies {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.movies-grid .movies__movie {
+  background-color: rgba(255, 255, 255, 0.8901960784);
+  border: 1px solid rgb(206, 73, 73);
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.movies-grid .movies__movie:hover {
+  background-color: rgba(230, 235, 231, 0.8901960784);
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.movies-grid .movies__movie__img {
+  width: 65%;
+  height: 65%;
+  object-fit: cover;
+  border-bottom: 1px solid rgb(206, 73, 73);
+}
+.movies-grid .movies__movie__title {
+  font-family: "Arial", sans-serif;
+  color: rgb(211, 47, 47);
+  font-size: 16px;
+  margin: 10px 0;
+  animation: fade-in-out 3s infinite;
+  font-weight: bold;
+}
+@media screen and (min-width: 1024px) {
+  .movies-grid .movies__movie__title {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+}
+.movies-grid .movies__movie__author, .movies-grid .movies__movie__date, .movies-grid .movies__movie__description {
+  font-family: "Arial", sans-serif;
+  color: #333333;
+  font-size: 15px;
+  margin: 5px 0;
+}
+@media screen and (min-width: 1024px) {
+  .movies-grid .movies__movie__author, .movies-grid .movies__movie__date, .movies-grid .movies__movie__description {
+    font-size: 18px;
+  }
+}
+.movies-grid.dark {
+  background-color: rgb(0, 0, 0);
+}
+
+/*# sourceMappingURL=movies.css.map */

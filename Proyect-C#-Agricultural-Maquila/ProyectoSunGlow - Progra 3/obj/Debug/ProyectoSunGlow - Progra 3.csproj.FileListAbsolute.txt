@@ -1,0 +1,66 @@
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\bin\Debug\ProyectoSunGlow - Progra 3.exe.config
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\bin\Debug\ProyectoSunGlow - Progra 3.exe
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\bin\Debug\ProyectoSunGlow - Progra 3.pdb
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow - Progra 3.csproj.AssemblyReference.cache
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Properties.Resources.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow - Progra 3.csproj.GenerateResource.cache
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow - Progra 3.csproj.CoreCompileInputs.cache
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow - Progra 3.exe
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow - Progra 3.pdb
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.TextBoxCuadrado.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.ToolBox_Personalizado.TextBoxRedondeado.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.ToolBox_Personalizado.ButtonRedondeado.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.VenUsuariosCRUD.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.VenAdminMenu.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Digitador.VenDigiMenu.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.VenMenuPrincipal.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Programa.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.VenLogin.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Administrador.VenFincasCRUD.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.VenProveedoresCRUD.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Administrador.VenVariedadDeFrutoCRUD.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Digitador.VenBoletaCosechaDetalleCRUD.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Digitador.VenEmpaqueYPalletizadoCRUD.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Administrador.VenBloquesCRUD.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Administrador.VenLotesCRUD.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Administrador.VenTiposDeFrutosCRUD.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Digitador.VenEntradaEnvios.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Digitador.VenEntradaBoletas.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Digitador.VenRecepcionEnvios.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Digitador.VenInmersion.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.VenRepMovimientos.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Administrador.VenBinesCRUD.resources
+C:\Users\gredd\source\repos\ProyectoSunGlow - Progra 3\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.VenReportes.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\bin\Debug\ProyectoSunGlow - Progra 3.exe.config
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\bin\Debug\ProyectoSunGlow - Progra 3.exe
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\bin\Debug\ProyectoSunGlow - Progra 3.pdb
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow - Progra 3.csproj.AssemblyReference.cache
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Administrador.VenBinesCRUD.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Administrador.VenBloquesCRUD.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Digitador.VenEntradaBoletas.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Digitador.VenEntradaEnvios.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Administrador.VenFincasCRUD.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Administrador.VenLotesCRUD.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.VenProveedoresCRUD.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Digitador.VenInmersion.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Digitador.VenRecepcionEnvios.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Administrador.VenTiposDeFrutosCRUD.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Administrador.VenVariedadDeFrutoCRUD.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Digitador.VenBoletaCosechaDetalleCRUD.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Digitador.VenDigiMenu.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.Digitador.VenEmpaqueYPalletizadoCRUD.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.VenLogin.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.VenMenuPrincipal.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.VenAdminMenu.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.VenUsuariosCRUD.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Programa.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.VenReportes.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Interfaz_Grafica.VenRepMovimientos.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.Properties.Resources.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.ToolBox_Personalizado.ButtonRedondeado.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.TextBoxCuadrado.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow___Progra_3.ToolBox_Personalizado.TextBoxRedondeado.resources
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow - Progra 3.csproj.GenerateResource.cache
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow - Progra 3.csproj.CoreCompileInputs.cache
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow - Progra 3.exe
+C:\Users\gredd\OneDrive - Universidad Técnica Nacional\University-Projects\University-Projects\Proyect-C#-Farming-Production\ProyectoSunGlow - Progra 3\obj\Debug\ProyectoSunGlow - Progra 3.pdb
